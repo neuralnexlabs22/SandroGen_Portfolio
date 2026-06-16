@@ -4,7 +4,11 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — SandroGen Tech" },
-      { name: "description", content: "Get in touch with SandroGen Tech. Email rohithlakshman999@gmail.com or WhatsApp +91 73489 75878." },
+      {
+        name: "description",
+        content:
+          "Get in touch with SandroGen Tech. Email rohithlakshman999@gmail.com or WhatsApp +91 73489 75878.",
+      },
       { property: "og:title", content: "Contact SandroGen Tech" },
       { property: "og:description", content: "Let's build something exceptional together." },
     ],
@@ -27,29 +31,49 @@ function Contact() {
           </p>
 
           <div className="mt-12 space-y-4">
-            <a href="mailto:rohithlakshman999@gmail.com"
-              className="glass-card glass-card-hover p-6 flex items-center justify-between group">
+            <a
+              href="mailto:rohithlakshman999@gmail.com"
+              className="glass-card glass-card-hover p-6 flex items-center justify-between group"
+            >
               <div>
-                <div className="text-xs font-mono uppercase tracking-[0.2em] text-white/40 mb-1">Email</div>
+                <div className="text-xs font-mono uppercase tracking-[0.2em] text-white/40 mb-1">
+                  Email
+                </div>
                 <div className="font-display text-xl md:text-2xl">rohithlakshman999@gmail.com</div>
               </div>
-              <span className="w-12 h-12 rounded-full border border-white/15 flex items-center justify-center group-hover:bg-[#D4FF00] group-hover:text-black transition">→</span>
+              <span className="w-12 h-12 rounded-full border border-white/15 flex items-center justify-center group-hover:bg-[#D4FF00] group-hover:text-black transition">
+                →
+              </span>
             </a>
-            <a href="https://wa.me/917348975878"
-              className="glass-card glass-card-hover p-6 flex items-center justify-between group">
+            <a
+              href="https://wa.me/917348975878"
+              className="glass-card glass-card-hover p-6 flex items-center justify-between group"
+            >
               <div>
-                <div className="text-xs font-mono uppercase tracking-[0.2em] text-white/40 mb-1">WhatsApp</div>
+                <div className="text-xs font-mono uppercase tracking-[0.2em] text-white/40 mb-1">
+                  WhatsApp
+                </div>
                 <div className="font-display text-xl md:text-2xl">+91 73489 75878</div>
               </div>
-              <span className="w-12 h-12 rounded-full border border-white/15 flex items-center justify-center group-hover:bg-[#D4FF00] group-hover:text-black transition">→</span>
+              <span className="w-12 h-12 rounded-full border border-white/15 flex items-center justify-center group-hover:bg-[#D4FF00] group-hover:text-black transition">
+                →
+              </span>
             </a>
-            <a href="https://github.com/rohithlakshman999-hue" target="_blank" rel="noreferrer"
-              className="glass-card glass-card-hover p-6 flex items-center justify-between group">
+            <a
+              href="https://github.com/rohithlakshman999-hue"
+              target="_blank"
+              rel="noreferrer"
+              className="glass-card glass-card-hover p-6 flex items-center justify-between group"
+            >
               <div>
-                <div className="text-xs font-mono uppercase tracking-[0.2em] text-white/40 mb-1">GitHub</div>
+                <div className="text-xs font-mono uppercase tracking-[0.2em] text-white/40 mb-1">
+                  GitHub
+                </div>
                 <div className="font-display text-xl md:text-2xl">@rohithlakshman999-hue</div>
               </div>
-              <span className="w-12 h-12 rounded-full border border-white/15 flex items-center justify-center group-hover:bg-[#D4FF00] group-hover:text-black transition">↗</span>
+              <span className="w-12 h-12 rounded-full border border-white/15 flex items-center justify-center group-hover:bg-[#D4FF00] group-hover:text-black transition">
+                ↗
+              </span>
             </a>
           </div>
         </div>
@@ -70,7 +94,8 @@ function Contact() {
               ))}
             </ol>
             <div className="mt-8 pt-6 border-t border-white/5 text-xs text-white/40 font-mono">
-              SandroGen Tech · India<br/>
+              SandroGen Tech · India
+              <br />
               Available worldwide · Remote-first
             </div>
           </div>

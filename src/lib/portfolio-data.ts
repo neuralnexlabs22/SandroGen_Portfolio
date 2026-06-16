@@ -4,7 +4,9 @@ export const projects = [
     title: "Colour Seven Fashion",
     industry: "Fashion E-Commerce",
     url: "https://color-seven-fashion.vercel.app/",
-    description: "Premium fashion and lifestyle e-commerce platform with a dark-themed interface, conversion-focused user journeys and seamless shopping experience.",
+    image: "/color-seven.jpg",
+    description:
+      "Premium fashion and lifestyle e-commerce platform with a dark-themed interface, conversion-focused user journeys and seamless shopping experience.",
     features: ["Product Catalog", "Shopping Cart", "Wishlist", "Filters", "WhatsApp Inquiry"],
     highlights: ["Sports & Lifestyle Branding", "Conversion-Focused Layout"],
   },
@@ -13,7 +15,9 @@ export const projects = [
     title: "Y4U India",
     industry: "Fashion & Lifestyle",
     url: "https://y4uindia.vercel.app/",
-    description: "Fashion-focused online store featuring a visually rich interface and modern storytelling approach for apparel collections.",
+    image: "/y4u.jpg",
+    description:
+      "Fashion-focused online store featuring a visually rich interface and modern storytelling approach for apparel collections.",
     features: ["Product Showcase", "Responsive", "Interactive Layouts", "Mobile Optimized"],
     highlights: ["Luxury Fashion Design", "Strong Visual Branding"],
   },
@@ -22,7 +26,9 @@ export const projects = [
     title: "TradeX Store",
     industry: "Electronics & Technology",
     url: "https://tredexstore.in/",
-    description: "Electronics and technology marketplace offering a streamlined shopping experience for tech products and accessories.",
+    image: "/tradex.jpg",
+    description:
+      "Electronics and technology marketplace offering a streamlined shopping experience for tech products and accessories.",
     features: ["Catalog", "Search", "Categories", "Secure Checkout"],
     highlights: ["Technology Focused", "Scalable Architecture"],
   },
@@ -31,7 +37,9 @@ export const projects = [
     title: "Outlaw Styling Store",
     industry: "Fashion & Apparel",
     url: "https://outlaw-styling-store.vercel.app/",
-    description: "Modern fashion destination featuring bold visual design, premium layouts and engaging customer experiences.",
+    image: "/outlaw.jpg",
+    description:
+      "Modern fashion destination featuring bold visual design, premium layouts and engaging customer experiences.",
     features: ["Storefront", "Collections", "Responsive", "Interactive UI"],
     highlights: ["Contemporary Design", "Premium UX"],
   },
@@ -40,7 +48,8 @@ export const projects = [
     title: "MS Retro",
     industry: "Sports Merchandise",
     url: "https://msretro.com/",
-    description: "Retro football jerseys and sports merchandise platform focused on product discovery and customer engagement.",
+    description:
+      "Retro football jerseys and sports merchandise platform focused on product discovery and customer engagement.",
     features: ["Catalog", "Search", "Product Management", "Mobile Optimized"],
     highlights: ["Niche Market Focus", "Sports-Centric Branding"],
   },
@@ -49,7 +58,8 @@ export const projects = [
     title: "Thayyil Sports",
     industry: "Sports Retail",
     url: "https://www.thayyilsports.in/",
-    description: "Sports-focused e-commerce platform built to deliver high-quality sports products through an intuitive experience.",
+    description:
+      "Sports-focused e-commerce platform built to deliver high-quality sports products through an intuitive experience.",
     features: ["Catalog", "Reviews", "Responsive", "Product Showcase"],
     highlights: ["Modern Sports Branding", "Customer Engagement"],
   },
@@ -58,7 +68,8 @@ export const projects = [
     title: "Nirvana Quotation System",
     industry: "Business Software",
     url: null,
-    description: "Custom quotation management system that streamlines quotation generation, client management and proposal workflows with PDF export and GST calculation.",
+    description:
+      "Custom quotation management system that streamlines quotation generation, client management and proposal workflows with PDF export and GST calculation.",
     features: ["Auto Quotations", "PDF Export", "GST Calculation", "Client Database"],
     highlights: ["Time Saving Automation", "Professional Documents"],
   },
@@ -67,26 +78,54 @@ export const projects = [
 export const services = [
   {
     title: "E-Commerce Development",
-    description: "Custom online stores designed for maximum conversions and exceptional shopping experiences.",
-    items: ["Product & Inventory", "Cart & Checkout", "Razorpay Integration", "SEO Optimization", "Wishlist & Accounts", "Mobile Commerce"],
+    description:
+      "Custom online stores designed for maximum conversions and exceptional shopping experiences.",
+    items: [
+      "Product & Inventory",
+      "Cart & Checkout",
+      "Razorpay Integration",
+      "SEO Optimization",
+      "Wishlist & Accounts",
+      "Mobile Commerce",
+    ],
     icon: "🛍",
   },
   {
     title: "Business Websites",
-    description: "Professional websites built to establish trust and increase customer acquisition.",
-    items: ["Responsive Design", "Fast Loading", "Modern UI", "Contact Forms", "SEO Ready", "Mobile Optimized"],
+    description:
+      "Professional websites built to establish trust and increase customer acquisition.",
+    items: [
+      "Responsive Design",
+      "Fast Loading",
+      "Modern UI",
+      "Contact Forms",
+      "SEO Ready",
+      "Mobile Optimized",
+    ],
     icon: "🌐",
   },
   {
     title: "Custom Web Applications",
     description: "Scalable software solutions tailored to unique business requirements.",
-    items: ["Admin Dashboards", "Business Management", "Quotation Systems", "CRM Apps", "Inventory Systems"],
+    items: [
+      "Admin Dashboards",
+      "Business Management",
+      "Quotation Systems",
+      "CRM Apps",
+      "Inventory Systems",
+    ],
     icon: "⚡",
   },
   {
     title: "UI/UX Design",
     description: "Visually stunning and user-friendly digital experiences that convert.",
-    items: ["User Research", "Wireframing", "Interface Design", "Conversion Optimization", "Mobile-First"],
+    items: [
+      "User Research",
+      "Wireframing",
+      "Interface Design",
+      "Conversion Optimization",
+      "Mobile-First",
+    ],
     icon: "✦",
   },
   {
